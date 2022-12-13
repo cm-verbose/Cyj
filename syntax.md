@@ -2,7 +2,7 @@
 
 ---
 
-## Comment (`#`)
+## Comment (`#`, `---`)
 Used to represent comments. 
 
 ## Quote (`"`)
@@ -14,17 +14,23 @@ Used to assign values to identifiers.
 ## Comma (`,`)
 Used for enumeration
 
+## Colon (`:`)
+Used for corresponding values to others or types
+
+## Semi (`;`)
+Used for returning values from functions
+
 ## Bracket (`(`, `)`, `{`, `}`, `[`, `]`)
 Used for various tasks, mostly for grouping 
 
-## ComparisonOperator (`==`, `<=`, `>=`, `!=`)
+## ComparisonOperator (`==`, `>`, `<`, `<=`, `>=`, `!=`)
 Used for comparing values
 
 ## Operator (`+`, `-`, `*`, `/`, `%`, `+=`, `-=`, `*=`, `/=`, `%=`)
 Used to operate on values, along with assigning values after a performed operation
 
 ## StringContent
-The content of a string
+The content of a string, can contain `\"`
 
 ## Number 
 A number
@@ -49,3 +55,6 @@ Used for loops.
 
 ## While (`while`)
 Used to start a while loop
+
+## If (`if`)
+Used to start a conditional statement 
